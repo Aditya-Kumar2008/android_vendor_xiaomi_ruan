@@ -1,0 +1,110 @@
+
+{
+    "config": {
+        "hw_platform": ["MTP", "IDP", "IDPS", "Surf", "RCM", "QRD", "HDK"],
+        "soc_id": ["641", "640", "636", "657", "658","712"]
+    },
+    "oem_collision_detection": {
+        "owner": "oem_collision_detection",
+        ".params_for_two_vendors":{
+            "owner":  "oem_collision_detection",
+            "param_6dso_endflag": {
+                "ver": "0", "type": "flt", "data": "4.50"
+            },
+            "param_6dso_110s": {
+                "ver": "0", "type": "flt", "data": "0.0100"
+            },
+            "param_6dso_norm": {
+                "ver": "0", "type": "flt", "data": "0.010"
+            },
+            "param_6dso_50s": {
+                "ver": "0", "type": "flt", "data": "0.94"
+            },
+            "param_6dso_80s": {
+                "ver": "0", "type": "flt", "data": "0.9375"
+            },
+            "param_6dso_100s": {
+                "ver": "0", "type": "flt", "data": "0.95"
+            },
+            "param_6dso_120s": {
+                "ver": "0", "type": "flt", "data": "0.9580"
+            },
+            "param_6dso_150s": {
+                "ver": "0", "type": "flt", "data": "0.963"
+            },
+            "param_qmi6858_endflag": {
+                "ver": "0", "type": "flt", "data": "4.50"
+            },
+            "param_qmi6858_110s": {
+                "ver": "0", "type": "flt", "data": "0.0105"
+            },
+            "param_qmi6858_norm": {
+                "ver": "0", "type": "flt", "data": "0.011"
+            },
+            "param_qmi6858_50s": {
+                "ver": "0", "type": "flt", "data": "0.94"
+            },
+            "param_qmi6858_80s": {
+                "ver": "0", "type": "flt", "data": "0.9375"
+            },
+            "param_qmi6858_100s": {
+                "ver": "0", "type": "flt", "data": "0.936"
+            },
+            "param_qmi6858_120s": {
+                "ver": "0", "type": "flt", "data": "0.9540"
+            },
+            "param_qmi6858_150s": {
+                "ver": "0", "type": "flt", "data": "0.967"
+            },
+            "param_6dsv_endflag": {
+                "ver": "0", "type": "flt", "data": "4.50"
+            },
+            "param_6dsv_110s": {
+                "ver": "0", "type": "flt", "data": "0.0100"
+            },
+            "param_6dsv_norm": {
+                "ver": "0", "type": "flt", "data": "0.010"
+            },
+            "param_6dsv_50s": {
+                "ver": "0", "type": "flt", "data": "0.94"
+            },
+            "param_6dsv_80s": {
+                "ver": "0", "type": "flt", "data": "0.9375"
+            },
+            "param_6dsv_100s": {
+                "ver": "0", "type": "flt", "data": "0.95"
+            },
+            "param_6dsv_120s": {
+                "ver": "0", "type": "flt", "data": "0.9580"
+            },
+            "param_6dsv_150s": {
+                "ver": "0", "type": "flt", "data": "0.963"
+            },
+            "param_icm456xx_endflag": {
+                "ver": "0", "type": "flt", "data": "4.50"
+            },
+            "param_icm456xx_110s": {
+                "ver": "0", "type": "flt", "data": "0.0100"
+            },
+            "param_icm456xx_norm": {
+                "ver": "0", "type": "flt", "data": "0.010"
+            },
+            "param_icm456xx_50s": {
+                "ver": "0", "type": "flt", "data": "0.94"
+            },
+            "param_icm456xx_80s": {
+                "ver": "0", "type": "flt", "data": "0.9375"
+            },
+            "param_icm456xx_100s": {
+                "ver": "0", "type": "flt", "data": "0.95"
+            },
+            "param_icm456xx_120s": {
+                "ver": "0", "type": "flt", "data": "0.9580"
+            },
+            "param_icm456xx_150s": {
+                "ver": "0", "type": "flt", "data": "0.963"
+            }
+        }
+    }
+}
+
