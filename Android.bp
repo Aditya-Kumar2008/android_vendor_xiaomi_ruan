@@ -27758,3 +27758,17 @@ cc_library_shared {
     vendor: true,
     shared_libs: ["libdl"],
 }
+
+cc_library_headers {
+    name: "generated_kernel_headers",
+}
+
+cc_library_headers {
+    name: "qti_kernel_headers",
+}
+
+cc_library_shared {
+    name: "libgrallocutils",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
