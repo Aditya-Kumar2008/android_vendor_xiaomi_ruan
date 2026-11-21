@@ -2,12 +2,6 @@
 // Automatically generated file. DO NOT MODIFY
 //
 
-soong_namespace {
-    imports: [
-        "hardware/xiaomi",
-    ],
-}
-
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal-V1-ndk",
     owner: "xiaomi",
@@ -27751,4 +27745,10 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
+}
+
+cc_library_shared {
+    name: "libdisplaydebug",
+    vendor: true,
+    shared_libs: ["libdl"],
 }
