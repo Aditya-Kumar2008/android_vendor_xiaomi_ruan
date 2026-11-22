@@ -24497,40 +24497,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "adpl",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/adpl",
-            ],
-            shared_libs: [
-                "libc",
-                "liblog",
-                "libdiag",
-                "libdsutils",
-                "librmnetctl",
-                "libqmi_cci",
-                "libqmiservices",
-                "libnetutils",
-                "libcutils",
-                "libqmi_client_qmux",
-                "libqmi_encdec",
-                "libqcmaputils",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
 
 cc_prebuilt_binary {
     name: "adsprpcd",
