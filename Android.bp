@@ -27829,3 +27829,21 @@ cc_library_static {
     name: "lib_driver_cmd_qcwcn",
     vendor: true,
 }
+
+cc_library_shared {
+    name: "CneApp.libvndfwk_detect_jni.qti_vendor_symlink",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
+
+cc_library_shared {
+    name: "QtiTelephonyCompat",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
+
+cc_library_shared {
+    name: "EuiccPolicy",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
