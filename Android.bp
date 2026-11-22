@@ -27806,3 +27806,8 @@ cc_library_shared {
     vendor: true,
     shared_libs: ["libdl"],
 }
+cc_library_shared {
+    name: "libsdedrm",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
