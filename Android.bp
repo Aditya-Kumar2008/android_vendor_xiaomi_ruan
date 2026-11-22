@@ -27825,3 +27825,8 @@ cc_library_shared {
     vendor: true,
     shared_libs: ["libdl"],
 }
+cc_library_shared {
+    name: "lib_driver_cmd_qcwcn",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
