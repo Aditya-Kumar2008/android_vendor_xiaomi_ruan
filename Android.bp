@@ -27716,6 +27716,7 @@ install_symlink {
 cc_library_shared {
     name: "libdisplaydebug",
     vendor: true,
+    srcs: ["debug_handler.cpp"],
     shared_libs: ["libdl"],
 }
 
@@ -27758,11 +27759,6 @@ cc_library_shared {
 }
 cc_library_shared {
     name: "libqdutils",
-    vendor: true,
-    shared_libs: ["libdl"],
-}
-cc_library_shared {
-    name: "vendor.qti.hardware.pal@1.0",
     vendor: true,
     shared_libs: ["libdl"],
 }
