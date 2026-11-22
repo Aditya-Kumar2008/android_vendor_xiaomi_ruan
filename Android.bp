@@ -27816,3 +27816,13 @@ cc_library_shared {
     vendor: true,
     shared_libs: ["libdl"],
 }
+cc_library_shared {
+    name: "libgralloc.qti",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
+cc_library_shared {
+    name: "vendor.qti.hardware.AGMIPC@1.0",
+    vendor: true,
+    shared_libs: ["libdl"],
+}
