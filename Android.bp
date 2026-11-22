@@ -27773,12 +27773,6 @@ cc_library_shared {
     shared_libs: ["libdl"],
 }
 
-cc_library_static {
-    name: "lib_driver_cmd_qcwcn",
-    vendor: true,
-    shared_libs: ["libdl"],
-}
-
 cc_library_shared {
     name: "libqservice",
     vendor: true,
